@@ -1,0 +1,296 @@
+{
+  "intents": [
+    {
+      "tag": "saludos",
+      "patterns": [
+        "Hola",
+        "Holi",
+        "allin p’unchay",
+        "allin sukha",
+        "allin tuta",
+        "Que fue?",
+        "Estas ahí chaypichu kachkanki?",
+        "Hi",
+        "Hello",
+        ":)"
+      ],
+      "responses": [
+        "Hola! kusikuy riqsirikuyk(Hola! un gusto conocerte)",
+        "Hola :)",
+        "kusikuy qampiway rimariy(Encantado de hablar contigo)"
+      ]
+    },
+    {
+      "tag": "estado",
+      "patterns": [
+        "imaynalla kachkanki?",
+        "¿Como estas ?",
+        "imatataq willariwanki?",
+        "¿Que me cuentas?",
+        "imaynalla tarikunki?",
+        "Como te encuentras?",
+        "kunan  p’unchaw imaynatataq ch’isiyaykunki",
+        "¿Como te fue hoy?",
+        "Imakunallan willakuy kachkan?",
+        "¿Qué novedades?"
+      ],
+      "responses": [
+        "allin kachkani kusikuyma kanwan Rimariyqam imaynalla kachkanki? (Estoy bien  y encantado de hablar contigo, ¿como estas tu?)",
+        "kusikuywan kamachikusqaykita rurasaq, ichaqa qam imaynallataq tarikunki? (Feliz de estar a tu disposición,  ¿como te encuentras tú?)",
+        "kusikuni kaypi tarikusqaykimanta, Qam imaynalla kachkanki?(Estoy disfrutando de tu estadía, ¿Como estas tu?)"
+      ]
+    },
+    {
+      "tag": "feliz",
+      "patterns": [
+        "kusisqa tarikuni",
+        "Me siento feliz",
+        "kusisqa kachkani",
+        "Estoy feliz",
+        " kusisqa kachkani",
+        "Estoy alegre",
+        "Entusiasmado"
+      ],
+      "responses": [
+        "allin purichqanmanta kusikuni(Me alegra escuchar que todo va bien )",
+        " kusisqa kayqa allin kawsaypaqqa (Estar feliz ayuda un mejor ritmo de vida)",
+        "allin chayta uyarini(Encantado de escuchar eso )"
+      ]
+    },
+    {
+      "tag": "triste",
+      "patterns": [
+        "Me siento triste",
+        " llakisqa tarikuni",
+        "Estoy triste",
+        " llakisqa kachkani",
+        "Estoy deprimido",
+        " huhina kachkani",
+        "Destrozado",
+        " p’akisqa"
+      ],
+      "responses": [
+        " llakisqa kay kurkunchikpaq manan allinchu(Estar triste disminuye las energias en el cuerpo)",
+        " imapis kanman ñuqa qanwan kachkasaq(Si necesitas apoyo puedes contar conmigo)",
+        " pasaron waq p’unchaw paqarin yuyariy(Recuerda que mañana sera otro dia)"
+      ]
+    },
+    {
+      "tag": "furiosos",
+      "patterns": [
+        "Me siento frustrado",
+        " kulirasqa kachkani",
+        "Estoy renegando",
+        "kulirachkani",
+        "Estoy furioso",
+        "Ahh!",
+        "Grrr"
+      ],
+      "responses": [
+        " samariy kimsa chunka segundos nisqata(Respira por 30 segundos y exhala)",
+        "kulirasqa?, chayqa mana allin kawsayninchikpaq (eso es malo para la salud )",
+        "imapis allillan kanqa(Todo tiene una solucion)"
+      ]
+    },
+    {
+      "patterns": [
+        "Estoy enamorado ñuqa munani",
+        "allin tarikuni",
+        "El amor es bonito munakuy pasaq munayllapuni",
+        "Estoy es hermosa pay pasaq munay",
+        "Ella es la chica de mis sueños chay sipas puñuyniypi",
+        "Estar con ella paywan kasaq",
+        "Ya no quiero vivir manan kawsayta munanichu"
+      ],
+      "responses": [
+        "munakuy kay kawsaypi munay(El amor es lo mas lindo de la vida)",
+        "Enamorado munakuni? pues es lindo eh pasaq sumaqllapuni",
+        "Mientras exista amor mutuo todo estará bien iskaymanta munakuyqa allinllapuni :)"
+      ]
+    },
+    {
+      "tag": "tranquilo allin",
+      "patterns": [
+        "Estoy tranquilo",
+        "allin kachkani",
+        "Me siento normal",
+        "allin tarikuni",
+        "Nada fuera de lo común",
+        " imapis kanchu willakuy",
+        "Chill",
+        "Relax"
+      ],
+      "responses": [
+        " allín kayqa allinmi kawsaypaq(Estar asi es estar bien con uno mismo)",
+        " ukhunchikpi chaninchasqa(Paz interior)",
+        "Aprovechalo al 100%"
+      ]
+    },
+    {
+      "tag": "cansado",
+      "patterns": [
+        "Estoy cansado",
+        " sayk’usqa kachkani",
+        "Me siento muerto",
+        " wañusqa hina kani",
+        "No siento el cuerpo",
+        " mana kurkuyta sintinichu",
+        "Estoy con ganas de dormir",
+        "puñuyta munachkani"
+      ],
+      "responses": [
+        " samariy allin kanaykipaq(Descansa unas cuantas horas para reponer fuerzas)",
+        "wañarqukuy(Toma una ducha) ",
+        "chaymanta huch’uyta puñuriy(Tomate una siesta)"
+      ]
+    },
+    {
+      "tag": "estresado",
+      "patterns": [
+        "Estoy estresado",
+        "Me siento estresado",
+        "Me duele la cabeza",
+        " umay nanawan",
+        "Me tiembla el ojo",
+        " ñawiy chikchikiwan",
+        "Me tiembla la mano",
+        "makiy chikchikiwan"
+      ],
+      "responses": [
+        "El estres es peligroso, consulta para programarte una llamada",
+        "Sintomas de estres? comunicate con un de los especialistas"
+      ]
+    },
+    {
+      "tag": "enfermo",
+      "patterns": [
+        "Estoy enfermo unqusqa kachkani",
+        "Tengo dolor nanay hap’iwan",
+        "TTengo nauseas waq’aqiyta munani",
+        "Me corte cuchurtakuni",
+        "Tuve un accidente accidente nisqa pasarquwan"
+      ],
+      "responses": [
+        "qillqay *wahanapaq* cita nisqata urqunapaq urqunaykipaq (Escribe *llamar* asignarte una cita)",
+        "waharikamuy uchkhayllata (Comunicate urgente con nuestro registro telefonico)"
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "Necesito ayuda",
+        "Auxilio!",
+        "Socorro! Yanapaway wala",
+        "Mi vida ya no tiene sentido",
+        "manan kawsayniyta sintinichu",
+        " Estoy desanimado",
+        " desanimasqa tarikuni",
+        "Ya nada tiene sentido",
+        " imapis sintiduyuqchu kapun",
+        "Ya no quiero vivir",
+        " manan kawsayta Munanichu"
+      ],
+      "responses": [
+        " Yanapaway wala utqankichu?,  wahayta atikamuwaq(Necesitas ayuda urgente? Puedes conusltar en nuestro registro )",
+        "  pitataq wahayta munanki?, qillqay  alu (Necesitas llamar a alguien, Escribe *Alo*)",
+        " Quykimanchu yupaykunata wahakamunaykipaq (Te puedo brindar numeros para ayudarte?)"
+      ]
+    },
+    {
+      "tag": "llamar",
+      "patterns": [
+        "LLamar",
+        "wahay",
+        "Dame numeros telefonicos",
+        " yupanakunata wahanapaq quyay",
+        "Quiero comunicarme",
+        " rimayta munani",
+        "programar llamada",
+        "wahanapaq churay",
+        "celular wahana"
+      ],
+      "responses": [
+        "978-546-412",
+        "956-213-456",
+        "945-123-457",
+        "914-123-753"
+      ]
+    },
+    {
+      "tag": "sintomas",
+      "patterns": [
+        "Tengo nauseas",
+        " waq’akiyuq kani",
+        "Tengo dolor de cabeza",
+        "uma nanayuq kani",
+        "Me duele el estomago",
+        " wiqsay nanawan",
+        "Me fracture una hueso",
+        "tulluyta p’akirtakuni",
+        "Sangrado",
+        " wayar",
+        "Me desmayo",
+        " winkupakusaq",
+        "Me estoy asfixiando",
+        "mana samayta atipunichu",
+        "Me estoy ahogando",
+        " hiq’iparqapusani"
+      ],
+      "responses": [
+        " hampina wasiq wahananta qumusayki : 123-324-234(Te brindamos el numero del hospital para poder  ayudarte: 123-324-234)",
+        " hampina wasi más qaylla. 123-456-789(El numero del hospital mas cercano es 123*456-789)"
+      ]
+    },
+    {
+      "tag": "acercade",
+      "patterns": [
+        "Quien eres?",
+        " Pitaq kanki?",
+        "Para qué sirves?",
+        " imapaqtaq walinki?"
+      ],
+      "responses": [
+        " botitocha kani ruranku uyarinaykipaq rimanaykipaq qamwan (Soy BOTITO y fui creado para escucharte e interactuar contigo)",
+        "rurasqa yanapanaykipaq(desarrollado para brindarte ayuda en todo momento)",
+        "Botitucha kani hayk’aqpis uyarisayki willaway imaymanata Mana intintisqaykikunata (Yo soy BOTITO y estoy a tu disposicion para escucharte en todo lo que quieras contarme, Consultas? Dudas?) "
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias por la ayuda",
+        " allipuni yanapasqaykimanta",
+        "me salvaste la vida",
+        " kawsayniyta kutichiwanki",
+        "mejoraste mi ritmo de vida",
+        " allin kapun kawsayniy"
+      ],
+      "responses": [
+        " botitocha kani yusulpakuyki yanapakusqaykimanta (Soy BOTICHA y estoy agradecido de haberte ayudado)",
+        " botitocha kani kusisqa kachkani yanaparquskaykimanta(Yo soy BOTITO y estoy feliz de que estés mejor)"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "hasta pronto",
+        "waq p’unchaw tupakusun",
+        "adios",
+        "ripusaq",
+        "Chau",
+        "bye",
+        "hablamos rimasun",
+        "Hasta luego",
+        "Me voy",
+        " ripusaq"
+      ],
+      "responses": [
+        "Un gusto conocerte",
+        " kusikuy riqsisqaykimanta (Hasta pronto)",
+        "ch’isiyaykuyta rimasun (Hablamos mas tarde)",
+        "hinaspa rimasun (hablamos despues…)",
+        "Good bye"
+      ]
+    }
+  ]
+}
